@@ -1,0 +1,18 @@
+---
+name: Scripter
+version: 0.0.1
+main: dktapps\Scripter\Main
+api: 4.0.0
+description: Run PHP scripts on the fly using commands
+
+permissions:
+  scripter.command.script:
+    default: op
+    description: "Allows using the /script command"
+
+commands:
+  script:
+    description: Run a script in the plugin's data folder
+    usage: "/script <file name>"
+    permission: scripter.command.script
+...
