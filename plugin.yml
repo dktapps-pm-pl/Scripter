@@ -1,8 +1,8 @@
 ---
 name: Scripter
-version: 0.0.1
+version: 0.0.2
 main: dktapps\Scripter\Main
-api: 4.0.0
+api: 5.0.0
 description: Run PHP scripts on the fly using commands
 
 permissions:
